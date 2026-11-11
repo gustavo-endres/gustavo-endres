@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gustavo Endres — Automação de Processos e Integração de Sistemas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#0F1E33"/>
+      <stop offset="1" stop-color="#0A2A35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22C1C3"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1C2B40" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)" opacity="0.55"/>
+  <!-- fluxo de automação (nós conectados) -->
+  <g stroke="#22C1C3" stroke-opacity="0.45" stroke-width="2" fill="none">
+    <path d="M1010 70 L1080 120 L1150 85"/>
+    <path d="M1080 120 L1060 200 L1140 235"/>
+    <path d="M1060 200 L990 250"/>
+  </g>
+  <g fill="#22C1C3">
+    <circle cx="1010" cy="70" r="5"/><circle cx="1080" cy="120" r="7"/><circle cx="1150" cy="85" r="5"/>
+    <circle cx="1060" cy="200" r="6"/><circle cx="1140" cy="235" r="5"/><circle cx="990" cy="250" r="5"/>
+  </g>
+  <!-- terminal -->
+  <g transform="translate(40,40)">
+    <rect width="430" height="240" rx="12" fill="#0A0F1A" stroke="#22324A" stroke-width="1.5"/>
+    <rect width="430" height="34" rx="12" fill="#111A2B"/>
+    <rect y="22" width="430" height="12" fill="#111A2B"/>
+    <circle cx="20" cy="17" r="6" fill="#FF5F57"/><circle cx="40" cy="17" r="6" fill="#FEBC2E"/><circle cx="60" cy="17" r="6" fill="#28C840"/>
+    <text x="215" y="22" text-anchor="middle" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" fill="#6B7A90">gustavo@endres: ~/automacoes</text>
+    <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="15">
+      <text x="20" y="66"><tspan fill="#22C1C3">$</tspan><tspan fill="#E6EDF3" dx="9">whoami</tspan></text>
+      <text x="20" y="88" fill="#9FB3C8">gustavo-endres · automação &amp; integrações</text>
+      <text x="20" y="118"><tspan fill="#22C1C3">$</tspan><tspan fill="#E6EDF3" dx="9">cat stack.txt</tspan></text>
+      <text x="20" y="140" fill="#9FB3C8">n8n · Zapier · HubSpot · REST APIs</text>
+      <text x="20" y="170"><tspan fill="#22C1C3">$</tspan><tspan fill="#E6EDF3" dx="9">ls projetos/</tspan></text>
+      <text x="20" y="192" fill="#7EE787">open-job-agent/</text>
+      <text x="20" y="222"><tspan fill="#22C1C3">$</tspan><tspan fill="#E6EDF3" dx="9">_</tspan></text>
+    </g>
+  </g>
+  <!-- identidade -->
+  <rect x="510" y="78" width="4" height="120" rx="2" fill="url(#accent)"/>
+  <text x="534" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="1">GUSTAVO <tspan font-weight="300" fill="#CFE3F5">ENDRES</tspan></text>
+  <text x="536" y="156" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#B8C7D9">Automação de Processos · Integração de Sistemas</text>
+  <text x="536" y="184" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#7C8EA5">Estudante de Engenharia de Software · UNICID · São Paulo</text>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#DCE8F5">
+    <rect x="536" y="210" width="58" height="28" rx="14" fill="#16263B" stroke="#2A4466"/><text x="565" y="229" text-anchor="middle">n8n</text>
+    <rect x="602" y="210" width="72" height="28" rx="14" fill="#16263B" stroke="#2A4466"/><text x="638" y="229" text-anchor="middle">Zapier</text>
+    <rect x="682" y="210" width="84" height="28" rx="14" fill="#16263B" stroke="#2A4466"/><text x="724" y="229" text-anchor="middle">HubSpot</text>
+    <rect x="774" y="210" width="96" height="28" rx="14" fill="#16263B" stroke="#2A4466"/><text x="822" y="229" text-anchor="middle">REST APIs</text>
+    <rect x="878" y="210" width="76" height="28" rx="14" fill="#16263B" stroke="#2A4466"/><text x="916" y="229" text-anchor="middle">Python</text>
+  </g>
+  <text x="536" y="272" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#22C1C3">&gt; transformando processos manuais em fluxos automatizados</text>
+</svg>
